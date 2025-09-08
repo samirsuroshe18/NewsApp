@@ -1,4 +1,4 @@
-# 🌿 News App
+# 📰 News App
 
 The News App is an Android application built using Jetpack Compose, MVVM, and Clean Architecture. It provides users with the latest news articles in a clean, modern, and user-friendly interface. This project serves as a hands-on learning experience to explore Compose UI, modular architecture, and best practices in Android development.
 
@@ -12,11 +12,11 @@ The News App is an Android application built using Jetpack Compose, MVVM, and Cl
 ## 📸 Screenshots
 <p align="center">
 
-  <img width="188" alt="details" src="https://github.com/user-attachments/assets/29c71cc7-4594-449c-b229-0ba9a3ccf901" />
-  <img width="188" alt="bookmark" src="https://github.com/user-attachments/assets/011f6bb9-d920-494d-8509-9a3f6148140c" />
-  <img width="188" alt="search" src="https://github.com/user-attachments/assets/16e08085-7140-4451-b453-0fbaf6cbff67" />
-  <img width="188" alt="home" src="https://github.com/user-attachments/assets/3c7897a7-dbb6-4ccd-8677-6eace706f714" />
   <img width="188" alt="onboarding" src="https://github.com/user-attachments/assets/c41d46b3-ea8f-463f-90d1-f87dde10b4c9" />
+  <img width="188" alt="home" src="https://github.com/user-attachments/assets/3c7897a7-dbb6-4ccd-8677-6eace706f714" />
+  <img width="188" alt="details" src="https://github.com/user-attachments/assets/29c71cc7-4594-449c-b229-0ba9a3ccf901" />
+  <img width="188" alt="search" src="https://github.com/user-attachments/assets/16e08085-7140-4451-b453-0fbaf6cbff67" />
+  <img width="188" alt="bookmark" src="https://github.com/user-attachments/assets/011f6bb9-d920-494d-8509-9a3f6148140c" />
 
 </p>
 
