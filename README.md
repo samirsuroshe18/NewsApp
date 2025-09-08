@@ -25,7 +25,7 @@ The News App is an Android application built using Jetpack Compose, MVVM, and Cl
 <p align="center">
   <img width="80" height="80" alt="play_store_512" src="https://github.com/user-attachments/assets/617f56b6-d415-4add-8a14-d31b1a727f3c" />
   <br/><br/>
-  <a href="https://github.com/samirsuroshe18/NewsApp/releases/tag/1.0.0">
+  <a href="https://github.com/samirsuroshe18/NewsApp/releases/tag/v1.0.0">
     <img src="https://img.shields.io/badge/Download%20APK-blue?style=for-the-badge&logo=android" alt="Download APK"/>
   </a>
 </p>
