@@ -25,7 +25,7 @@ The News App is an Android application built using Jetpack Compose, MVVM, and Cl
 <p align="center">
   <img width="80" height="80" alt="play_store_512" src="https://github.com/user-attachments/assets/617f56b6-d415-4add-8a14-d31b1a727f3c" />
   <br/><br/>
-  <a href="https://github.com/samirsuroshe18/NewsApp/releases/tag/v1.0.0">
+  <a href="https://github.com/samirsuroshe18/NewsApp/releases/latest">
     <img src="https://img.shields.io/badge/Download%20APK-blue?style=for-the-badge&logo=android" alt="Download APK"/>
   </a>
 </p>
@@ -33,40 +33,47 @@ The News App is an Android application built using Jetpack Compose, MVVM, and Cl
 ## 🚀 Features
 - 📰 Browse latest news articles in real-time
 - 🔍 Search news by keyword
-- 📂 Explore articles by categories
 - 📑 Read full articles with smooth UI
 - 🌙 Dark/Light theme support
-- 📶 Offline caching for previously loaded articles 
+- 🔖 Bookmark articles to read later, saved on the device
+- 👋 Onboarding screens on first launch
 
 ## 🛠️ Tech Stack
 - **Language:** Kotlin  
 - **UI:** Jetpack Compose 
 - **Architecture:** MVVM + Clean Architecture
 - **Networking:** Retrofit + OkHttp 
+- **News source:** [NewsAPI](https://newsapi.org)
+- **Lists:** Paging 3
+- **Storage:** Room (bookmarks), DataStore (first-launch flag)
 - **Async:** Coroutines + Flow
 - **Dependency Injection:** Hilt 
 - **Image Loading:** Coil  
 - **IDE:** Android Studio  
 
 ## 📲 Installation
-1. Download the APK from the [Releases](https://github.com/samirsuroshe18/NewsApp/releases/tag/1.0.0).  
+1. Download the APK from the [Releases](https://github.com/samirsuroshe18/NewsApp/releases/latest).  
 2. Enable **installation from unknown sources** on your device.  
 3. Tap the APK file to install it.  
-4. Create an account to start.  
+4. Open the app and start reading. No account is needed.  
 
 ## ⚙️ For Developers (Setup Guide)
-1. Clone this repo  
+1. Clone this repo
    ```bash
    git clone https://github.com/samirsuroshe18/NewsApp.git
-2. Open in Android Studio
-3. Add your own News API
-   key in local.properties
-   NEWS_API_KEY=your_api_key_here
-4. Sync Gradle and run on emulator or device
+   ```
+2. Open the project in Android Studio.
+3. Get a key from [NewsAPI](https://newsapi.org) and set it as `API_KEY` in
+   `app/src/main/java/in/smartdwell/newsapp/util/Constants.kt`.
+4. Sync Gradle and run on an emulator or a device.
 
 ## 📬 Contact
 👨‍💻 Developer: Samir Suroshe  
 📧 Email: [sameersuroshe50@gmail.com](mailto:sameersuroshe50@gmail.com)  
-🔗 LinkedIn: [samir-suroshe](https://www.linkedin.com/in/samir-suroshe-50b073271)  
+🔗 LinkedIn: [samir-suroshe](https://www.linkedin.com/in/samir-suroshe)  
 
 Your feedback and contributions are always welcome!
+
+## License
+
+[MIT](LICENSE)
